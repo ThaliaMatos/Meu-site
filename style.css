@@ -175,8 +175,4 @@ gap: 10%;
     .lista-cartoes {
         flex-direction: column;
     }
-
-    #nav {
-        bottom: 0%;
-    }
 }
