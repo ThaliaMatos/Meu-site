@@ -186,11 +186,8 @@ gap: 10%;
 
     #rodape {
         font-size: 1em;
+        flex-direction: column;
+        gap: 35px;
     }
 }
 
-@media (max-width: 840px) {
-    #rodape {
-        flex-direction: column;
-    }
-}
