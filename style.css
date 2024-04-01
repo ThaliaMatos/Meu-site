@@ -23,6 +23,15 @@ body {
     font-weight: 900;
     padding: 5% 0;
     transition: 5s;
+
+    /* cor gradient no titulo */
+    background-image: linear-gradient(to bottom,white, white, rgb(151, 85, 212), rgb(59, 2, 112));
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
 }
 
 .paragrafo-padrao {
