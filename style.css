@@ -25,8 +25,8 @@ body {
     transition: 5s;
 
     /* cor gradient no titulo */
-    background-image: linear-gradient(to bottom,white, white, rgb(151, 85, 212), rgb(59, 2, 112));
-    color: black;
+    background-image: linear-gradient(to bottom,white, white, rgb(151, 85, 212), rgb(59, 2, 112), rgb(59, 2, 112));
+    color: white;
     background-clip: text;
     -webkit-background-clip: text;
 
@@ -38,7 +38,7 @@ body {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     line-height: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .txt-superior-secundario {
@@ -129,7 +129,7 @@ gap: 10%;
 }
 
 .fundo-img {
-    width: 100%;
+    width: 100vm;
     background: linear-gradient(rgb(190, 130, 245) ,rgb(122, 14, 223), rgb(59, 2, 112), rgb(6, 0, 12));
     
     display: flex;
