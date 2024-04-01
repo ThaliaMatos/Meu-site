@@ -63,7 +63,7 @@ svg {
     fill: white;
 }
 
-#secao-destaque, #secao-conteudo, #secao-estudo, #secao-projetos {
+#secao-destaque, #secao-conteudo, #secao-estudo, #secao-projetos{
     padding: 80px;
 } 
 #secao-destaque {
@@ -142,7 +142,8 @@ gap: 10%;
 }
 
 #rodape {
-    padding: 32px 25px;
+    padding: 32px 80px;
+    font-size: 1.2em;
     border-top: 4px solid rgb(122, 14, 223);
 
     display: flex;
@@ -185,7 +186,6 @@ gap: 10%;
     }
 
     #rodape {
-        font-size: 1.5em;
         flex-direction: column;
         gap: 35px;
     }
